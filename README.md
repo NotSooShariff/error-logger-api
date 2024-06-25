@@ -3,7 +3,7 @@
 This documentation provides a comprehensive guide on how to use the Error Logger API. It is an API that I use personally to send error logs from all of my various servers and projects, store them in a MongoDB database, so that I can use webhooks and other means to get notified when any of my projects run into an error.
 
 ### Starting the server
-Once you install the `requirements.txt` , you can use this command to start the server.
+Once you install the `requirements.txt` and add your Database URL to the `.env` file, you can use this command to start the server.
 ```
 uvicorn src.main:app --reload
 ```
