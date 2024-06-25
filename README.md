@@ -280,7 +280,10 @@ axios.get(url)
 
 9. **Push code to Git repository**:
    ```sh
-   make git-push
+    # On windows
+    make push-win
+    # On Linux / Mac
+    make push-lin
    ```
 
 Ensure that `git-push.sh` is executable by running (Linux/Mac):
@@ -289,7 +292,7 @@ Ensure that `git-push.sh` is executable by running (Linux/Mac):
 chmod +x git-push.sh
 ```
 
-On Windows, use `git-push.bat` directly by running:
+On Windows, you can also use `git-push.bat` directly by running:
 
 ```cmd
 git-push.bat
